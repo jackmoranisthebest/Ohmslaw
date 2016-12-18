@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4D4C661E072F7A006AFBEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D4C651E072F7A006AFBEF /* AppDelegate.swift */; };
+		3F4D4C681E072F7A006AFBEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D4C671E072F7A006AFBEF /* ViewController.swift */; };
+		3F4D4C6B1E072F7A006AFBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4D4C691E072F7A006AFBEF /* Main.storyboard */; };
+		3F4D4C6D1E072F7A006AFBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4D4C6C1E072F7A006AFBEF /* Assets.xcassets */; };
+		3F4D4C701E072F7A006AFBEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4D4C6E1E072F7A006AFBEF /* LaunchScreen.storyboard */; };
+		3F4D4C7B1E072F7B006AFBEF /* Ohm_s_Law_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D4C7A1E072F7B006AFBEF /* Ohm_s_Law_CalculatorTests.swift */; };
+		3F4D4C861E072F7B006AFBEF /* Ohm_s_Law_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D4C851E072F7B006AFBEF /* Ohm_s_Law_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F4D4C771E072F7B006AFBEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4D4C5A1E072F7A006AFBEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4D4C611E072F7A006AFBEF;
+			remoteInfo = "Ohm's Law Calculator";
+		};
+		3F4D4C821E072F7B006AFBEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4D4C5A1E072F7A006AFBEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4D4C611E072F7A006AFBEF;
+			remoteInfo = "Ohm's Law Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F4D4C621E072F7A006AFBEF /* Ohm's Law Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ohm's Law Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4D4C651E072F7A006AFBEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F4D4C671E072F7A006AFBEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F4D4C6A1E072F7A006AFBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F4D4C6C1E072F7A006AFBEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F4D4C6F1E072F7A006AFBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F4D4C711E072F7A006AFBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4D4C761E072F7B006AFBEF /* Ohm's Law CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ohm's Law CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4D4C7A1E072F7B006AFBEF /* Ohm_s_Law_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ohm_s_Law_CalculatorTests.swift; sourceTree = "<group>"; };
+		3F4D4C7C1E072F7B006AFBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4D4C811E072F7B006AFBEF /* Ohm's Law CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ohm's Law CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4D4C851E072F7B006AFBEF /* Ohm_s_Law_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ohm_s_Law_CalculatorUITests.swift; sourceTree = "<group>"; };
+		3F4D4C871E072F7B006AFBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F4D4C5F1E072F7A006AFBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4D4C731E072F7B006AFBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4D4C7E1E072F7B006AFBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4D4C591E072F7A006AFBEF = {
+			isa = PBXGroup;
+			children = (
+				3F4D4C641E072F7A006AFBEF /* Ohm's Law Calculator */,
+				3F4D4C791E072F7B006AFBEF /* Ohm's Law CalculatorTests */,
+				3F4D4C841E072F7B006AFBEF /* Ohm's Law CalculatorUITests */,
+				3F4D4C631E072F7A006AFBEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4D4C631E072F7A006AFBEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4D4C621E072F7A006AFBEF /* Ohm's Law Calculator.app */,
+				3F4D4C761E072F7B006AFBEF /* Ohm's Law CalculatorTests.xctest */,
+				3F4D4C811E072F7B006AFBEF /* Ohm's Law CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4D4C641E072F7A006AFBEF /* Ohm's Law Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3F4D4C651E072F7A006AFBEF /* AppDelegate.swift */,
+				3F4D4C671E072F7A006AFBEF /* ViewController.swift */,
+				3F4D4C691E072F7A006AFBEF /* Main.storyboard */,
+				3F4D4C6C1E072F7A006AFBEF /* Assets.xcassets */,
+				3F4D4C6E1E072F7A006AFBEF /* LaunchScreen.storyboard */,
+				3F4D4C711E072F7A006AFBEF /* Info.plist */,
+			);
+			path = "Ohm's Law Calculator";
+			sourceTree = "<group>";
+		};
+		3F4D4C791E072F7B006AFBEF /* Ohm's Law CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4D4C7A1E072F7B006AFBEF /* Ohm_s_Law_CalculatorTests.swift */,
+				3F4D4C7C1E072F7B006AFBEF /* Info.plist */,
+			);
+			path = "Ohm's Law CalculatorTests";
+			sourceTree = "<group>";
+		};
+		3F4D4C841E072F7B006AFBEF /* Ohm's Law CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4D4C851E072F7B006AFBEF /* Ohm_s_Law_CalculatorUITests.swift */,
+				3F4D4C871E072F7B006AFBEF /* Info.plist */,
+			);
+			path = "Ohm's Law CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F4D4C611E072F7A006AFBEF /* Ohm's Law Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4D4C8A1E072F7B006AFBEF /* Build configuration list for PBXNativeTarget "Ohm's Law Calculator" */;
+			buildPhases = (
+				3F4D4C5E1E072F7A006AFBEF /* Sources */,
+				3F4D4C5F1E072F7A006AFBEF /* Frameworks */,
+				3F4D4C601E072F7A006AFBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ohm's Law Calculator";
+			productName = "Ohm's Law Calculator";
+			productReference = 3F4D4C621E072F7A006AFBEF /* Ohm's Law Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F4D4C751E072F7B006AFBEF /* Ohm's Law CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4D4C8D1E072F7B006AFBEF /* Build configuration list for PBXNativeTarget "Ohm's Law CalculatorTests" */;
+			buildPhases = (
+				3F4D4C721E072F7B006AFBEF /* Sources */,
+				3F4D4C731E072F7B006AFBEF /* Frameworks */,
+				3F4D4C741E072F7B006AFBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4D4C781E072F7B006AFBEF /* PBXTargetDependency */,
+			);
+			name = "Ohm's Law CalculatorTests";
+			productName = "Ohm's Law CalculatorTests";
+			productReference = 3F4D4C761E072F7B006AFBEF /* Ohm's Law CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F4D4C801E072F7B006AFBEF /* Ohm's Law CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4D4C901E072F7B006AFBEF /* Build configuration list for PBXNativeTarget "Ohm's Law CalculatorUITests" */;
+			buildPhases = (
+				3F4D4C7D1E072F7B006AFBEF /* Sources */,
+				3F4D4C7E1E072F7B006AFBEF /* Frameworks */,
+				3F4D4C7F1E072F7B006AFBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4D4C831E072F7B006AFBEF /* PBXTargetDependency */,
+			);
+			name = "Ohm's Law CalculatorUITests";
+			productName = "Ohm's Law CalculatorUITests";
+			productReference = 3F4D4C811E072F7B006AFBEF /* Ohm's Law CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4D4C5A1E072F7A006AFBEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Big J's Kobe size development team.";
+				TargetAttributes = {
+					3F4D4C611E072F7A006AFBEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5RDP545338;
+						ProvisioningStyle = Automatic;
+					};
+					3F4D4C751E072F7B006AFBEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5RDP545338;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F4D4C611E072F7A006AFBEF;
+					};
+					3F4D4C801E072F7B006AFBEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5RDP545338;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F4D4C611E072F7A006AFBEF;
+					};
+				};
+			};
+			buildConfigurationList = 3F4D4C5D1E072F7A006AFBEF /* Build configuration list for PBXProject "Ohm's Law Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F4D4C591E072F7A006AFBEF;
+			productRefGroup = 3F4D4C631E072F7A006AFBEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4D4C611E072F7A006AFBEF /* Ohm's Law Calculator */,
+				3F4D4C751E072F7B006AFBEF /* Ohm's Law CalculatorTests */,
+				3F4D4C801E072F7B006AFBEF /* Ohm's Law CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F4D4C601E072F7A006AFBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4D4C701E072F7A006AFBEF /* LaunchScreen.storyboard in Resources */,
+				3F4D4C6D1E072F7A006AFBEF /* Assets.xcassets in Resources */,
+				3F4D4C6B1E072F7A006AFBEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4D4C741E072F7B006AFBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4D4C7F1E072F7B006AFBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F4D4C5E1E072F7A006AFBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4D4C681E072F7A006AFBEF /* ViewController.swift in Sources */,
+				3F4D4C661E072F7A006AFBEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4D4C721E072F7B006AFBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4D4C7B1E072F7B006AFBEF /* Ohm_s_Law_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4D4C7D1E072F7B006AFBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4D4C861E072F7B006AFBEF /* Ohm_s_Law_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F4D4C781E072F7B006AFBEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4D4C611E072F7A006AFBEF /* Ohm's Law Calculator */;
+			targetProxy = 3F4D4C771E072F7B006AFBEF /* PBXContainerItemProxy */;
+		};
+		3F4D4C831E072F7B006AFBEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4D4C611E072F7A006AFBEF /* Ohm's Law Calculator */;
+			targetProxy = 3F4D4C821E072F7B006AFBEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F4D4C691E072F7A006AFBEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F4D4C6A1E072F7A006AFBEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F4D4C6E1E072F7A006AFBEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F4D4C6F1E072F7A006AFBEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F4D4C881E072F7B006AFBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F4D4C891E072F7B006AFBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F4D4C8B1E072F7B006AFBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RDP545338;
+				INFOPLIST_FILE = "Ohm's Law Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BigJ.Ohm-s-Law-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F4D4C8C1E072F7B006AFBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RDP545338;
+				INFOPLIST_FILE = "Ohm's Law Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BigJ.Ohm-s-Law-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F4D4C8E1E072F7B006AFBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5RDP545338;
+				INFOPLIST_FILE = "Ohm's Law CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BigJ.Ohm-s-Law-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ohm's Law Calculator.app/Ohm's Law Calculator";
+			};
+			name = Debug;
+		};
+		3F4D4C8F1E072F7B006AFBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5RDP545338;
+				INFOPLIST_FILE = "Ohm's Law CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BigJ.Ohm-s-Law-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ohm's Law Calculator.app/Ohm's Law Calculator";
+			};
+			name = Release;
+		};
+		3F4D4C911E072F7B006AFBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5RDP545338;
+				INFOPLIST_FILE = "Ohm's Law CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BigJ.Ohm-s-Law-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ohm's Law Calculator";
+			};
+			name = Debug;
+		};
+		3F4D4C921E072F7B006AFBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5RDP545338;
+				INFOPLIST_FILE = "Ohm's Law CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BigJ.Ohm-s-Law-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ohm's Law Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F4D4C5D1E072F7A006AFBEF /* Build configuration list for PBXProject "Ohm's Law Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4D4C881E072F7B006AFBEF /* Debug */,
+				3F4D4C891E072F7B006AFBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4D4C8A1E072F7B006AFBEF /* Build configuration list for PBXNativeTarget "Ohm's Law Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4D4C8B1E072F7B006AFBEF /* Debug */,
+				3F4D4C8C1E072F7B006AFBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F4D4C8D1E072F7B006AFBEF /* Build configuration list for PBXNativeTarget "Ohm's Law CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4D4C8E1E072F7B006AFBEF /* Debug */,
+				3F4D4C8F1E072F7B006AFBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F4D4C901E072F7B006AFBEF /* Build configuration list for PBXNativeTarget "Ohm's Law CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4D4C911E072F7B006AFBEF /* Debug */,
+				3F4D4C921E072F7B006AFBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4D4C5A1E072F7A006AFBEF /* Project object */;
+}
